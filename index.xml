@@ -6,10 +6,21 @@
     <description>Recent content on Ömer Saatcioglu</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 25 Sep 2017 01:24:13 +0200</lastBuildDate>
+    <lastBuildDate>Tue, 26 Sep 2017 01:36:03 +0200</lastBuildDate>
     
 	<atom:link href="http://osaatcioglu.github.io/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Hugo Static Site Generator</title>
+      <link>http://osaatcioglu.github.io/posts/hugo/</link>
+      <pubDate>Tue, 26 Sep 2017 01:36:03 +0200</pubDate>
+      
+      <guid>http://osaatcioglu.github.io/posts/hugo/</guid>
+      <description>I was looking for a static site generator that can work nicely with github pages. And, I came across to Hugo
+It takes a bit of time to understand the template (if you don&amp;rsquo;t know go already, I don&amp;rsquo;t) and how to publish a content. But, once you are there, the rest is quite trivial.
+I have also written a small script that keeps the generated files in the master branch while the source branch has all the raw files needed by Hugo.</description>
+    </item>
     
     <item>
       <title>Hello World</title>
