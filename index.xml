@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Ömer Saatcioglu</title>
+    <link>http://osaatcioglu.github.io/</link>
+    <description>Recent content on Ömer Saatcioglu</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 25 Sep 2017 01:24:13 +0200</lastBuildDate>
+    
+	<atom:link href="http://osaatcioglu.github.io/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Hello World</title>
+      <link>http://osaatcioglu.github.io/posts/hello-world/</link>
+      <pubDate>Mon, 25 Sep 2017 01:24:13 +0200</pubDate>
+      
+      <guid>http://osaatcioglu.github.io/posts/hello-world/</guid>
+      <description>I tried to write about tech and related stuff several times in different platforms. But, life got in the way and I didn&amp;rsquo;t continue. I wonder how many times I used this typical &amp;ldquo;Hello World!&amp;rdquo; post. Yet, here I am.
+Failing is OK. One can still learn along the way. So, I want to try more regardless if it fails. And while I am busy with trying, I hope that my humble experience reaches to some and it gets useful.</description>
+    </item>
+    
+    <item>
+      <title>Projects</title>
+      <link>http://osaatcioglu.github.io/projects/</link>
+      <pubDate>Mon, 25 Sep 2017 01:24:13 +0200</pubDate>
+      
+      <guid>http://osaatcioglu.github.io/projects/</guid>
+      <description> Compiler written in Python interpreting LISP like language
+The purpose of the project is to show how to parse, interpret and evaluate the abstract syntax tree.
+ A django project consumes booli.se data and list the realty prices
+I created this project while I was searching for an apartment. I used this tool to get a price overview of the neighbourhood that I was looking.
+  </description>
+    </item>
+    
+  </channel>
+</rss>
