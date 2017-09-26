@@ -1,14 +1,14 @@
 {{ partial "header.html" . }}
 
 <h2 class="content-list-title">
-    <a href="{{ .Permalink }}" class="linktopost">{{ .Title }}</a>
+    <a href="{{ .Permalink }}" class="linktopost">My Blog Posts</a>
 </h2>
 
 <div class="content-list">
 {{ range .Data.Pages.GroupByDate "2006" }}
 <div class="content-list-date">{{ .Key }}</div>
   {{ range .Pages }}
-  {{ .Render "li"}}
+  {{ .Render "summary"}}
   {{ end }}
 {{ end }}
 </div>

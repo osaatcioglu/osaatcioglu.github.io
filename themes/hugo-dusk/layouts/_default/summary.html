@@ -3,16 +3,16 @@
   <header>
     <h2 class="title"> <a href='{{ .Permalink }}'> {{ .Title }}</a> </h2>
     <div class="meta">
-      {{ .Date.Format "Jan 2, 2006" }} - {{ .ReadingTime }} minutes
+      {{ .Date.Format "Jan 2, 2006" }} - {{ .ReadingTime }} minute(s)
     </div>
     {{ partial "tags.html" . }}
   </header>
 
-  <div class="summary"> {{ .Summary }} </div>
+  <div class="summary">{{substr .Summary 0 100}}...</div>
 
   <footer>
   <div class="rmore">
-    <a href='{{ .Permalink }}'><nobr>Read more ...</nobr></a>
+    <a href='{{ .Permalink }}'><nobr>Read more</nobr></a>
   </div>
   </footer>
 

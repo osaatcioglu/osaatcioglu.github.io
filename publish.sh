@@ -23,6 +23,7 @@ if [[ $(git status -s) ]]
 then
     git add .
     git commit -m "$message"
+    git push origin source
 fi
 
 echo "Generating site"
@@ -34,15 +35,19 @@ mv docs ..
 
 echo "Checkout master" 
 git checkout master
+
 echo "Move the content of the docs folder to the master branch"
 rm -rf *
 mv ../docs/* .
 rm -rf ../docs
-echo "Push the changes with comment: $message"
-git add .
-git commit -m "$message"
-git push origin master
 
-echo "Checkout source and push the commit to the repo"
+if [[ $(git status -s) ]]
+then
+    echo "Push the changes with comment: $message"
+    git add .
+    git commit -m "$message"
+    git push origin master
+fi
+
+echo "Going back to source branch"
 git checkout source
-git push origin source
