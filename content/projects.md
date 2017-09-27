@@ -8,7 +8,7 @@ description = ""
 
 - [Compiler written in Python interpreting LISP like language](https://github.com/osaatcioglu/Lisp-esque-language)
 
-	The purpose of the project is to show how to parse, interpret and evaluate the abstract syntax tree. 
+	The purpose of the project is to show how to parse, interpret and evaluate the abstract syntax tree.
 
 - [A django project consumes booli.se data and list the realty prices](https://github.com/osaatcioglu/booliwood)
 
