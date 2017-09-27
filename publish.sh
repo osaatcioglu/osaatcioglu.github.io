@@ -3,7 +3,7 @@
 message=$1
 
 if [ -z $message ]
-then 
+then
     echo "You must have a message."
     exit 1;
 fi
@@ -14,7 +14,7 @@ source="source"
 echo $branch
 
 if [ $branch != $source ]
-then 
+then
     echo "You must be in source branch to publish."
     exit 1;
 fi
@@ -33,8 +33,9 @@ hugo
 echo "Moving the docs folder to one level above"
 mv docs ..
 
-echo "Checkout master" 
+echo "Checkout master"
 git checkout master
+rm -rf themes
 
 echo "Move the content of the docs folder to the master branch"
 rm -rf *
@@ -51,3 +52,4 @@ fi
 
 echo "Going back to source branch"
 git checkout source
+git submodule update --init
