@@ -6,10 +6,20 @@
     <description>Recent content on Ömer Saatcioglu</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 26 Sep 2017 01:36:03 +0200</lastBuildDate>
+    <lastBuildDate>Sun, 05 Nov 2017 21:12:04 +0100</lastBuildDate>
     
 	<atom:link href="http://osaatcioglu.github.io/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>WhatsApp-CLI </title>
+      <link>http://osaatcioglu.github.io/posts/whatsapp-cli/</link>
+      <pubDate>Sun, 05 Nov 2017 21:12:04 +0100</pubDate>
+      
+      <guid>http://osaatcioglu.github.io/posts/whatsapp-cli/</guid>
+      <description>I recently developed a very simple CLI app to send WhatsApp messages directly from CLI. It was a nice experience as I learned how to use Puppeteer which is a headless Chrome with Node APIs. Also, I learned how to package and publish Node Packages.
+It is not very fancy but I am using it from time to time. Check out the repo at https://github.com/osaatcioglu/whatsapp-cli</description>
+    </item>
     
     <item>
       <title>Hugo Static Site Generator</title>
