@@ -2,7 +2,7 @@ baseURL = "http://osaatcioglu.github.io/"
 languageCode = "en-us"
 title = "Ömer Saatcioglu"
 theme = "hugo-dusk"
-publishDir = "docs"
+publishDir = "public"
 
 [[menu.main]]
   name = "Blog"
