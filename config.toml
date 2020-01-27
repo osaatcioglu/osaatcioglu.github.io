@@ -1,4 +1,4 @@
-baseURL = "http://osaatcioglu.github.io/"
+baseURL = "https://osaatcioglu.netlify.com"
 languageCode = "en-us"
 title = "Ömer Saatcioglu"
 theme = "hugo-dusk"
