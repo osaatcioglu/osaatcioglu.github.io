@@ -1,0 +1,33 @@
+
+/*
+ * main green: #66afcc
+ * */
+
+body { background: #101010; color: #dbdbdb; }
+a { color: #dbdbdb; }
+pre { background: #1D1F21; border: 1px solid #5C5C5C; border-radius: 5px; }
+code { background: #1D1F21; }
+blockquote { background: #1D1F21; border-left: 3px solid #66afcc; }
+table { margin: 1em auto; border-collapse: collapse; }
+table, th, td { border: 1px solid #5C5C5C; }
+tr:hover { background: #1D1F21; }
+th { background: #1D1F21; }
+.siteTitle a { color: #66afcc; }
+.post .content h1{ color: #66afcc; }
+.post .content h2{ color: #66afcc; }
+.post .content h3{ color: #66afcc; }
+.post .content h4{ color: #66afcc; }
+.post .content h5{ color: #66afcc; }
+.post .content h6{ color: #66afcc; }
+.post .content a:hover { color: #66afcc; }
+.social-link:hover { color: #66afcc; }
+.nav-item-title:hover { color: #66afcc; }
+.tag a:hover { color: #66afcc; }
+.copyright { color: #404040; }
+.poweredby { color: #404040; }
+.poweredby a { color: #404040; }
+.post-preview .title a{ color: #66afcc; }
+.content-item a:hover{ text-decoration: underline; color: #66afcc; }
+.post-list .title { color: #66afcc; }
+.rmore a { color: #66afcc; }
+.terms .term a:hover { text-decoration: underline; color: #66afcc; }
