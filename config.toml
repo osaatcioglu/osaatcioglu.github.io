@@ -4,6 +4,8 @@ title = "Ömer Saatcioglu"
 theme = "hugo-dusk"
 publishDir = "public"
 
+googleAnalytics = "UA-480975-23"
+
 [[menu.main]]
   name = "Blog"
   weight = -70
